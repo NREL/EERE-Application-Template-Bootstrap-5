@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en"> <!--<![endif]-->
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+   	<!-- Font Awesome
+         ================================================== -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/36ddb5b453.js" crossorigin="anonymous"></script>
+    
+    <!-- Site CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet">
+    <link href="client/css/app.min.css" rel="stylesheet">
+      
+    <title>{{Title}}</title>
+
+    <!-- Google Analytics
+         ================================================== -->
+    <script>
+     (function() {
+       var so = document.createElement('script'); so.type = 'text/javascript'; so.async = true;
+       so.src = '//www.energy.gov/includes/ga/eere.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(so, s);
+     })();
+    </script>
+    
+	</head>
+
+	<body>
+        
+	<a href="#maincontent" class="sr-only">Skip to main content</a> 
+        
+	<!--stopindex-->
+    <header>
+	<!-- Navigation top row -->
+	<nav class="navbar navbar-expand-lg navbar-dark mb-0">
+		  <div class="container">
+                              
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainnav"  aria-controls="mainnav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+              
+            <div class="navbar-header">
+                <span class="banner-title">
+                    <img src="assets/images/doe-eere-logo.png" alt="" usemap="#logo" class="banner-logo d-block d-xl-inline mb-2 mb-xl-0">
+                    <map name="logo">
+                          <area shape="rect" coords="1,1,198,20" href="https://www.energy.gov" alt="Energy.gov">
+                          <area shape="rect" coords="2,22,198,75" href="https://www.energy.gov/eere/office-energy-efficiency-renewable-energy" alt="Office of Energy Efficiency and Renewable Energy">
+                    </map>
+                    <a href="#" class="navbar-brand">{{Program Title}}</a>
+                </span>
+	        	</div>
+              
+		<div class="navbar-collapse collapse" id="mainnav">
+		 <ul class="nav navbar-nav navbar-right">
+			<li class="nav-item"><a href="#" class="nav-link">Navigation</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">Navigation</a></li>
+			<li class="dropdown nav-item">
+			  <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Navigation</a>
+			  <ul class="dropdown-menu">
+				<li class="nav-item"><a href="#" class="nav-link">Link</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link</a></li>
+				<li role="separator" class="divider"></li>
+				<li class="nav-item"><a href="#" class="nav-link">Separated link</a></li>
+			  </ul>
+			</li>
+
+			<li>
+			<!--BEGIN SEARCH BOX-->
+			<form class="navbar-form navbar-left d-none d-sm-inline" role="search">
+				<div class="form-group mt-lg-1 ms-lg-3">
+					<label for="search" class="sr-only">Search Site</label>
+					<input type="text" id="search" placeholder="Search Site" class="searchbox" />
+                    <a class="btn btn-navbar"><span class="fa fa-search" aria-hidden="true"></span></a>
+				</div>		
+			</form>
+			<!--END SEARCH BOX-->
+			</li>
+		  </ul>
+
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+	 <!-- Sub-navigation - row 2 -->  
+		<div class="navbar navbar-expand-lg navbar-light subnav mt-lg-0" id="nav2">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#subnav"  aria-controls="subnav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+				</div>
+				<div class="collapse navbar-collapse" id="subnav">
+					<ul class="nav navbar-nav navbar-right">
+					  <li class="dropdown">
+					  <a href="#" class="dropdown-toggle nav-item" data-bs-toggle="collapse" data-bs-target="#dropdown1" role="button" aria-haspopup="true" aria-expanded="false">Navigation</a>
+					  <ul class="dropdown-menu" id="dropdown1">
+						<li class="nav-item"><a href="#">Link</a></li>
+						<li class="nav-item"><a href="#">Link</a></li>
+						<li class="nav-item"><a href="#">Link</a></li>
+						<li role="separator" class="divider"></li>
+						<li class="nav-item"><a href="#">Separated link</a></li>
+					  </ul>
+					</li>
+					<li class="dropdown nav-item">
+					  <a href="#" class="dropdown-toggle"  data-bs-toggle="collapse" data-bs-target="#dropdown2" role="button" aria-haspopup="true" aria-expanded="false">Navigation</a>
+					  <ul class="dropdown-menu" id="dropdown2">
+						<li class="nav-item"><a href="#">Link</a></li>
+						<li class="nav-item"><a href="#">Link</a></li>
+						<li class="nav-item"><a href="#">Link</a></li>
+						<li role="separator" class="divider"></li>
+						<li class="nav-item"><a href="#">Separated link</a></li>
+					  </ul>
+					</li>
+					<li class="dropdown nav-item">
+					  <a href="#" class="dropdown-toggle"  data-bs-toggle="collapse" data-bs-target="#dropdown3" role="button" aria-haspopup="true" aria-expanded="false">Navigation</a>
+					  <ul class="dropdown-menu" id="dropdown3">
+						<li class="nav-item"><a href="#">Link</a></li>
+						<li class="nav-item"><a href="#">Link</a></li>
+						<li class="nav-item"><a href="#">Link</a></li>
+						<li role="separator" class="divider"></li>
+						<li class="nav-item"><a href="#">Separated link</a></li>
+					  </ul>
+					</li>
+					<li class="dropdown nav-item">
+					  <a href="#" class="dropdown-toggle"  data-bs-toggle="collapse" data-bs-target="#dropdown4" role="button" aria-haspopup="true" aria-expanded="false">Navigation</a>
+					  <ul class="dropdown-menu" id="dropdown4">
+						<li class="nav-item"><a href="#">Link</a></li>
+						<li class="nav-item"><a href="#">Link</a></li>
+						<li class="nav-item"><a href="#">Link</a></li>
+						<li role="separator" class="divider"></li>
+						<li class="nav-item"><a href="#">Separated link</a></li>
+					  </ul>
+					</li>
+					<li class="nav-social first d-none d-lg-inline"><a href="#"><span class="fa fa-twitter-square fa-2x" aria-hidden="true"></span></a></li>
+					<li class="nav-social d-none d-lg-inline"><a href="#"><span class="fa fa-linkedin-square fa-2x" aria-hidden="true"></span></a></li>
+					<li class="nav-social d-none d-lg-inline"><a href="#"><span class="fa fa-facebook-square fa-2x" aria-hidden="true"></span></a></li>  		
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</header>
+	
+		<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+			<!-- BEGIN Breadcrumbs -->
+					<div class="breadcrumbs">
+						<a href="https://www.energy.gov/eere/office-energy-efficiency-renewable-energy">EERE</a> &raquo; {{Sitename}}
+					</div>
+			<!-- END Breadcrumbs -->
+			</div>
+		</div>
+	</div>
+<!--startindex-->
+      
+      
+		<!-- BEGIN CONTENT -->
+			<div class="content" id="maincontent">
+				<div class="container">
+				   <div class="row">
+						<div class="col-sm-12">
+
+							<h1>Two Level Nav and Search</h1>
+							<p>Use for sites that have fairly deep content. May be useful for sites with both high level content (about, contact, etc.) and deep topic content.</p>
+							<p><a href="index.html">Back to Style Guide</a>.</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- END CONTENT -->
+
+
+
+        
+        <!--stopindex-->
+        <footer class="footer-site">
+         <div class="programbar" style="background-color: #666; color: #fff;">
+            "{Sitename} is a resource of the U.S. Department of Energy's {Office or Program Name}."<br />
+             <a href="#">Contact Us</a> | {<a href="#">Office or Program Name</a>}
+            </div> 
+            <div class="footer-top">
+                <div class="container">
+                 <div class="row">
+                    <div class="col-md-3">
+                        <p class="office">OFFICE of<br />
+                        ENERGY EFFICIENCY AND RENEWABLE ENERGY</p>
+                        <p>Forrestal Building<br />
+                            1000 Independence Ave. SW<br>Washington DC 20585</p>
+
+                        <div class="energy-social-widget">
+                        <a href="https://www.facebook.com/eeregov" aria-label="Link to Facebook" title="Link to Facebook"><i class="fab fa-facebook-f fa-lg circle-icon"></i><span class="sr-only">Link to Facebook</span></a>
+                        <a href="https://twitter.com/eeregov" aria-label="Link to Twitter" title="Link to Twitter"><i class="fab fa-twitter fa-lg circle-icon"></i><span class="sr-only">Link to Twitter</span></a>
+                        <a href="https://www.youtube.com/user/USdepartmentofenergy" aria-label="Link to Youtube" title="Link to Youtube"><i class="fab fa-youtube fa-lg circle-icon"></i><span class="sr-only">Link to Youtube</span></a>
+                        <a href=" https://www.linkedin.com/showcase/10310263/" aria-label="Link to Linkedin" title="Link to Linkedin"><i class="fab fa-linkedin-in fa-lg circle-icon"></i><span class="sr-only">Link to Linkedin</span></a>
+                        </div>
+                        <p class="small">An office of</p>
+                        <a href="https://www.energy.gov">
+                            <img src="assets/images/energy_white.png" alt="Energy.Gov" class="site-name">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="footer-header"><a href="https://www.energy.gov/eere/about-office-energy-efficiency-and-renewable-energy">About EERE</a></p>
+                        <p><a href="https://www.energy.gov/jobs/jobs">Careers and Internships</a></p>
+                        <p><a href="https://www.energy.gov/eere/office-energy-efficiency-renewable-energy">EERE Home</a></p>
+                        <p><a href="https://www1.eere.energy.gov/library/default.aspx">Publications Library</a></p>
+                        <p><a href="https://www.energy.gov/eere/about-us/office-energy-efficiency-and-renewable-energy-contacts">Contact EERE</a></p>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="footer-header"><a href="https://www.energy.gov/">Energy.gov Resources</a></p>
+                        <p><a href="https://www.energy.gov/budget-performance">Budget &amp; Performance</a></p>
+                        <p><a href="https://www.directives.doe.gov">Directives, Delegations &amp; Requirements</a></p>
+                        <p><a href="https://www.energy.gov/management/office-management/operational-management/freedom-information-act">FOIA</a></p>
+                        <p><a href="https://www.energy.gov/ig/office-inspector-general">Inspector General</a></p>
+                        <p><a href="https://www.energy.gov/cio/office-chief-information-officer/services/guidance/privacy-program">Privacy Program</a></p>
+                        <p><a href="https://www.energy.gov/osdbu/office-small-and-disadvantaged-business-utilization">Small Business</a></p>
+                        <p><a href="https://www.energy.gov/about-us/staff-and-contractors">Staff &amp; Contractor Resources</a></p>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="footer-header"><a href="https://www.energy.gov/">Federal Government</a></p>
+                        <p><a href="http://www.whitehouse.gov">The White House</a></p>
+                        <p><a href="http://www.usa.gov">USA.gov</a></p>
+                    </div>
+            </div>
+            </div>
+            </div>
+
+            <div class="footer-bottom">
+            <div class="container">
+            <ul class="menu">
+                <li><a href="https://www.energy.gov/about-us/web-policies">Web Policies</a></li>
+                <li><a href="https://www.energy.gov/about-us/web-policies/privacy">Privacy</a></li>
+                <li><a href="https://www.energy.gov/diversity/services/protecting-civil-rights/no-fear-act">No Fear Act</a></li>
+                <li><a href="https://www.energy.gov/whistleblower-protection-and-nondisclosure-agreements">Whistleblower Protection</a></li>
+                <li><a href="https://www.energy.gov/cio/department-energy-information-quality-guidelines">Information Quality</a></li>
+                <li><a href="https://www.energy.gov/open-government">Open Gov</a></li>
+                <li><a href="https://www.energy.gov/cio/office-chief-information-officer/services/assistive-technology/accessibility-standard-statement">Accessibility</a></li>
+                <li><a href="https://doe.responsibledisclosure.com/hc/en-us">Vulnerability Disclosure Program</a></li>
+            </ul>
+            </div>
+        </div>
+
+        </footer>
+        <!--startindex-->
+        
+        <!-- Core Bootstrap javascript
+         ================================================== -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    </body>
+</html>
