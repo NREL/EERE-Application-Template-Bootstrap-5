@@ -1,0 +1,29 @@
+{
+    "name": "nrel/eere_app_template_bootstrap5",
+    "description": "EERE App branded theme for Bootstrap 5",
+    "license": "GPL-2.0",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "homepage": "https://github.com/NREL/EERE-Application-Template-Bootstrap-5",
+    "authors": [
+        {
+            "name": "Amy Griffin (aglickso)",
+            "email": "Amy.Griffin@nrel.gov",
+            "role": "Maintainer"
+        }
+    ],
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        "assets": {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+        "packages.drupal.org": false
+    },
+     "support": {
+        "issues": "https://github.com/NREL/EERE-Application-Template-Bootstrap-5/issues"
+    }
+}
