@@ -1,6 +1,3 @@
-# EERE-Application-Template-Bootstrap-5
-EERE Application Template (Bootstrap 5)
-
 # EERE Application Style Guide Accessibility Notes
 
 ## Side/Left Navigation
