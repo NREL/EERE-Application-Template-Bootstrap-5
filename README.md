@@ -1,3 +1,5 @@
+The security.txt file was added to meet a new OMB requirement for federal departments/agencies to implement a Vulnerability Disclosure Policy.
+
 # EERE Application Style Guide Accessibility Notes
 
 ## Side/Left Navigation
